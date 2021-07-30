@@ -7,4 +7,5 @@ public class KonversiWaktu {
        SimpleDateFormat parseFormat = new SimpleDateFormat("hh:mm a");
        Date date = parseFormat.parse("1:30 PM");
        System.out.println(parseFormat.format(date) + " = " + displayFormat.format(date));
-   }}
+   }
+}
